@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.localytics.phonegap.LocalyticsPlugin" version="1.0.0">
     <name>Localytics</name>
     <description>Localytics Plugin for Cordova/PhoneGap</description>
@@ -50,8 +50,8 @@
         <source-file src="src/android/LocalyticsPlugin.java" target-dir="src/com/localytics/phonegap/" />
 
         <framework src="com.android.support:support-v4:+" />
-        <framework src="com.google.android.gms:play-services-gcm:+" />
-        <framework src="com.google.android.gms:play-services-ads:+" />
+        <!--<framework src="com.google.android.gms:play-services-gcm:+" />-->
+        <!--<framework src="com.google.android.gms:play-services-ads:+" />-->
 
     </platform>
 
